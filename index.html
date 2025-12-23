@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>nabila nur janah</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#dc2626', // merah
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="font-sans scroll-smooth text-gray-700">
+
+<!-- HEADER -->
+<header class="fixed top-0 w-full bg-white shadow z-50">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <h1 class="text-2xl font-bold text-primary">MyPortfolio</h1>
+    <nav class="hidden md:flex space-x-6 font-medium">
+      <a href="#home" class="hover:text-primary">Home</a>
+      <a href="#about" class="hover:text-primary">About</a>
+      <a href="#services" class="hover:text-primary">Services</a>
+      <a href="#projects" class="hover:text-primary">Projects</a>
+      <a href="#contact" class="hover:text-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HOME -->
+<section id="home" class="min-h-screen bg-cover bg-center flex items-center"
+  style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c');">
+  <div class="bg-black bg-opacity-60 w-full h-full">
+    <div class="max-w-7xl mx-auto px-6 py-32 text-white">
+      <h2 class="text-5xl font-bold mb-4">Professional Digital Portfolio</h2>
+      <p class="max-w-xl mb-6">
+        Solusi website modern, cepat, dan elegan untuk meningkatkan branding digital Anda.
+      </p>
+      <a href="#contact" class="bg-primary px-6 py-3 rounded hover:bg-red-700 transition">
+        Contact Me
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" class="rounded-lg shadow">
+    <div>
+      <h3 class="text-3xl font-bold text-primary mb-4">About Me</h3>
+      <p>
+        Saya adalah web developer yang berfokus pada desain profesional,
+        performa tinggi, dan pengalaman pengguna terbaik.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-primary mb-10">Services</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-bold text-xl mb-2">Web Design</h4>
+        <p>UI/UX modern dan responsif.</p>
+      </div>
+      <div class="p-6 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-bold text-xl mb-2">Web Development</h4>
+        <p>Clean code dan performa optimal.</p>
+      </div>
+      <div class="p-6 rounded shadow hover:shadow-lg transition">
+        <h4 class="font-bold text-xl mb-2">Maintenance</h4>
+        <p>Dukungan dan pengembangan berkelanjutan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-primary mb-8">Features</h3>
+    <div class="grid md:grid-cols-2 gap-4">
+      <p>✔ Responsive Design</p>
+      <p>✔ Fast Loading</p>
+      <p>✔ SEO Friendly</p>
+      <p>✔ Easy Customization</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-primary mb-10">Projects</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="rounded shadow">
+      <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" class="rounded shadow">
+      <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984" class="rounded shadow">
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-primary mb-10">Team</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div>
+        <img src="https://randomuser.me/api/portraits/men/41.jpg" class="mx-auto rounded-full mb-4">
+        <h4 class="font-bold">John Doe</h4>
+        <p>Developer</p>
+      </div>
+      <div>
+        <img src="https://randomuser.me/api/portraits/women/36.jpg" class="mx-auto rounded-full mb-4">
+        <h4 class="font-bold">Jane Smith</h4>
+        <p>Designer</p>
+      </div>
+      <div>
+        <img src="https://randomuser.me/api/portraits/men/55.jpg" class="mx-auto rounded-full mb-4">
+        <h4 class="font-bold">Alex</h4>
+        <p>Marketing</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-primary mb-10">Pricing</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 shadow rounded">
+        <h4 class="font-bold">Basic</h4>
+        <p class="text-3xl text-primary">$49</p>
+      </div>
+      <div class="p-6 shadow rounded border-2 border-primary">
+        <h4 class="font-bold">Pro</h4>
+        <p class="text-3xl text-primary">$99</p>
+      </div>
+      <div class="p-6 shadow rounded">
+        <h4 class="font-bold">Premium</h4>
+        <p class="text-3xl text-primary">$149</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-primary mb-6">Testimonials</h3>
+    <p>"Hasil kerja sangat profesional dan tepat waktu."</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold text-primary mb-4">FAQ</h3>
+    <p><strong>Q:</strong> Apakah website responsive?<br><strong>A:</strong> Ya, 100% responsive.</p>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-primary mb-6">Blog</h3>
+    <p>Artikel terbaru segera hadir.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-3xl font-bold text-primary mb-6">Contact</h3>
+    <input class="border p-2 m-2 w-64" placeholder="Name">
+    <input class="border p-2 m-2 w-64" placeholder="Email">
+    <textarea class="border p-2 m-2 w-full max-w-md" placeholder="Message"></textarea><br>
+    <button class="bg-primary text-white px-6 py-2 rounded hover:bg-red-700">
+      Send Message
+    </button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-white py-6 text-center">
+  <p>© 2025 MyPortfolio. All Rights Reserved.</p>
+</footer>
+
+<!-- SCROLL TO TOP BUTTON -->
+<button id="toTop" class="fixed bottom-6 right-6 bg-primary text-white px-4 py-2 rounded hidden">
+  ↑
+</button>
+
+<script>
+  const toTop = document.getElementById("toTop");
+  window.addEventListener("scroll", () => {
+    toTop.classList.toggle("hidden", window.scrollY < 300);
+  });
+  toTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+
+</body>
+</html>
